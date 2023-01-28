@@ -1,0 +1,233 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ICONS */
+.icons123 {
+  padding: 20px;
+  display: flex;
+  justify-content: right;
+}
+
+.icons a {
+  color: #fff7e5;
+  background-color: #1c1cb0f5;
+  font-size: 25px;
+
+  margin-left: 35px;
+
+  text-align: center;
+  border-radius: 50%;
+  padding: 6px;
+}
+
+.fa,
+.fa-instagram,
+.fa-twitter,
+.fa-youtube {
+  width: 2.5vw;
+}
+
+/* HEADING */
+
+.row {
+  height: 100vh;
+}
+
+#heading-outer {
+  margin-top: 10vw;
+}
+#heading-outer h1 {
+  color: rgb(52, 52, 140);
+  font-size: 4rem;
+  margin-left: 8vw;
+  font-weight: bold;
+}
+
+#heading-outer p {
+  line-height: 30px;
+  margin-left: 8vw;
+}
+
+.h1,
+span {
+  color: gold;
+}
+
+/* BG BOX */
+
+#empty-box {
+  background-color: rgb(52, 52, 140);
+  margin-top: -8vw;
+}
+
+/* ABOUT US */
+#whole-container {
+  background-color: #fadadd;
+}
+
+#imagecol {
+  padding: 5%;
+  border-radius: 10px;
+}
+
+#inner-whole-container {
+  padding: 6%;
+}
+
+/* BUTTON READ-MORE */
+
+.btn a{
+  background-color: rgb(52, 52, 140);
+  padding: 2%;
+  color: white;
+  font-weight: 600;
+  border-radius: 50px;
+}
+
+/* JOIN TIC */
+
+.sectionTIC {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  /* margin-top: 10vw; */
+  /* margin-bottom: 5vw; */
+}
+.sectionTIC h4{
+font-size: 4rem;
+  font-weight: 400;
+}
+.sectionTIC p{
+font-size: 20px;
+
+}
+
+
+#outer-shadow {
+  /* padding-left: 15vw;
+  padding-right: 15vw; */
+  border-radius: 25px;
+}
+#outer-shadow .email{
+margin-right: 20vw;
+  font-size: 20px;
+  border: none;
+  outline: none;
+}
+
+
+#btn2 {
+  border-radius: 10px;
+  font-size: 20px;
+  background-color: beige;
+}
+
+/* TESTIMONIAL */
+
+#testimonial-section {
+  text-align: left;
+  
+}
+
+.Testimonial-heading{
+font-size: 40px;
+  font-weight: 700;
+}
+
+.inner-row {
+  display: flex;
+  justify-content: center;
+}
+/* col 1 */
+.column1 {
+  background-color: rgb(52, 52, 140);
+  height: 80vh;
+  width: 50%;
+}
+.box {
+  margin-top: 40%;
+  margin-left: 11vw;
+  color: white;
+}
+.box h2 {
+  font-weight: 700;
+  font-size: 40px;
+}
+
+/* col 2 */
+.column2 {
+  background-color: #fadadd;
+  width: 50%;
+  height: 80vh;
+}
+
+.inner-box {
+  width: 85%;
+  margin: 33px 0px;
+  background-color: white;
+  padding: 8vw 2vw 6vw 13vw;
+  display: flex;
+  justify-content: center;
+}
+.info , .identity, .long-para{
+  color: black;
+}
+
+/* dp */
+.dp-div {
+  display: flex;
+  justify-content: center;
+  margin-left: -11vw;
+}
+.dp-image {
+  border-radius: 55%;
+  object-fit: cover;
+  width: 50px;
+  height: 50px;
+}
+
+/* .dp-caption {
+  margin-top: 0vw;
+  margin-left: 3vh;
+} */
+
+.long-para {
+  margin-left: -5vw;
+  width: 31vw;
+  line-height: 4vh;
+}
+
+/* subscribe */
+
+.circle {
+  height: 80vh;
+}
+
+/* OUR IMPACT */
+
+.main-div{
+  text-align: left;
+}
+.main-div h2{
+  font-size: 40px;
+  font-weight: 700;
+}
+.sub-div{
+  background-color: rgb(52, 52, 140);
+   padding: 10vh;
+  width: 0 auto;
+}
+.sub-div h2{
+  font-size: 40px;
+  font-weight: 700;
+}
+.sub-div, .sub-div-caption, .sub-div-para{
+  color: white;
+}
+.sub-div-caption, .sub-div-para{
+  margin-left: 5vw;
+}
+
